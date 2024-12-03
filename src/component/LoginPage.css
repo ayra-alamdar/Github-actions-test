@@ -1,0 +1,64 @@
+.login-container {
+    width: 300px;
+    padding: 30px;
+    border: 2px solid #360404;
+    border-radius: 8px;
+    background-color: #fcf4caf3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-group {
+    margin-bottom: 12px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], select {
+    width: 95%;
+    padding: 4px;
+    margin: auto;
+    border: 2px solid #360404;
+    color:  #360404;
+    background-color: rgb(255, 252, 249);
+    border-radius: 8px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #0dad08;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+input[type="submit"]:hover {
+    background-color: #1ca3a3;
+}
+.radio-list label {
+    display: inline-block;
+    margin-right: 15px; /* Adjust as needed to control spacing between radio buttons */
+    font-weight: normal; /* Optional: Remove bold text on labels */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: none; /* hide the image when it's used as background */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #360404;
+
+    background-image: url('https://scontent.fisb18-1.fna.fbcdn.net/v/t39.30808-6/224639287_3009236056061816_6156004309798249523_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FMCBR29qReYAX9eBnkS&_nc_ht=scontent.fisb18-1.fna&oh=00_AfDDDgnp1pVJItPx8BiZpqx0JBDUVd1svFqbCN4pSzMV4A&oe=66063D3A');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
