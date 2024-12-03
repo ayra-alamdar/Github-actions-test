@@ -15,7 +15,7 @@ The workflow automatically checks if the React project is compilable. It verifie
 
 2. **Steps in the Workflow**:
    - **Checkout Code**: The workflow uses `actions/checkout` to clone the repository onto the GitHub-hosted runner.
-   - **Set Up Node.js**: It sets up a Node.js environment compatible with the project (version 16, in this case).
+   - **Set Up Node.js**: It sets up a Node.js environment compatible with the project.
    - **Install Dependencies**: The `npm install` command is executed to install all necessary project dependencies.
    - **Build the Project**: The `npm run build` command compiles the React project.
    - **Verify Build Artifacts**: The workflow checks for the existence of the `build` directory to confirm that the project compiled successfully.
@@ -33,5 +33,5 @@ The workflow automatically checks if the React project is compilable. It verifie
 ## Usage
 
 To use this workflow:
-1. Save the provided YAML file in your repository under `.github/workflows/compile-check.yml`.
+1. Save the provided YAML file in our repository under `.github/workflows/compile-check.yml`.
 2. Push changes to the `main` branch or create a pull request to trigger the workflow.
